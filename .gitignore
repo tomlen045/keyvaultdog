@@ -1,0 +1,9 @@
+# 排版产物不入仓
+*article*.html
+公众号*.html
+article-assets/
+*.png
+*.jpg
+__pycache__/
+*.pyc
+.DS_Store
