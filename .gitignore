@@ -2,8 +2,12 @@
 *article*.html
 公众号*.html
 article-assets/
-*.png
-*.jpg
 __pycache__/
 *.pyc
 .DS_Store
+# 封面不入仓
+cover*
+# 证据图必须进仓（jsDelivr CDN 图床）
+*.png
+!shots/*.png
+*.jpg
